@@ -1,10 +1,11 @@
 ---
 layout: post
-title: You're up and running!
+title: Introduction to OpenGL
+categories: opengl
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+# **Introduction**
+*Bài viết này được dịch lại từ trang web [LearnOpenGL](https://learnopengl.com/Introduction)*
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
-
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+Khi mà bạn tìm đến đây, chắc hẳn bạn đang muốn tìm hiểu về hoạt động của đồ họa máy tính và làm thế nào để có thể tạo ra nó.
+Tuy nhiên, chúng ta sẽ cần đảm bảo 1 số điều kiện trước khi bắt đầu khóa học này.
