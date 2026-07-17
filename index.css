@@ -3,7 +3,7 @@
     font-weight: 400;
     font-style: normal;
     src: url("../fonts/Noto-Sans-regular/Noto-Sans-regular.eot");
-    src: url("../fonts/Noto-Sans-regular/Noto-Sans-regular.eot?#iefix") format("embedded-opentype"), local("Noto Sans"), local("Noto-Sans-regular"), url("../fonts/Noto-Sans-regular/Noto-Sans-regular.woff2") format("woff2"), url("../fonts/Noto-Sans-regular/Noto-Sans-regular.woff") format("woff"), url("../fonts/Noto-Sans-regular/Noto-Sans-regular.ttf") format("truetype"), url("../fonts/Noto-Sans-regular/Noto-Sans-regular.svg#NotoSans") format("svg")
+.site-brand { font-size: 36px; font-weight: 700; color: #333333; margin-right: 12px; }
 }
 
 @font-face {
@@ -483,7 +483,7 @@ header { position: relative; }
     color: #333333; /* dark grey */
     text-decoration: none;
     font-weight: 700;
-    font-size: 20px; /* match site-brand */
+        font-size: 36px; /* match site-brand */
     padding: 8px 10px;
 }
 }
@@ -760,4 +760,19 @@ screen and (max-width: 480px) {
     font-size: 13px;
     color: #555;
     margin-top: 4px;
+}
+
+/* Justify main content paragraphs and list items for tidy two-sided alignment */
+section p,
+section ul,
+section ul li,
+.pub-authors,
+.pub-meta {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/* Keep publication titles left-aligned for readability */
+.pub-title {
+    text-align: left;
 }
