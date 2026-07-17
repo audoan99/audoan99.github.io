@@ -312,7 +312,7 @@
 
 body {
     background-color: #fff;
-    padding: 50px;
+    padding: 16px; /* reduced top padding so header sits near top */
     font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #727272;
     font-weight: 400
@@ -507,7 +507,7 @@ header { position: relative; }
     top: 0;
     left: 0;
     right: 0;
-    height: 60px;
+    height: 76px; /* allow larger header to accommodate bigger brand size */
     background: #fff;
     border-bottom: 1px solid #e5e5e5;
     z-index: 1000;
@@ -534,7 +534,7 @@ header { position: relative; }
 .site-brand { font-size: 20px; font-weight: 700; color: #333333; }
 
 /* space page content below the fixed header */
-.wrapper { padding-top: 76px; }
+.wrapper { padding-top: 92px; }
 
 .contacts {
     list-style: none;
