@@ -465,14 +465,17 @@ header { position: relative; }
     margin: 0 0 12px 0;
     padding: 0;
     display: flex;
-    gap: 18px;
+    gap: 12px;
     align-items: center;
+    margin-left: 14px;
 }
 
 .top-nav li a {
     color: #267CB9;
     text-decoration: none;
     font-weight: 600;
+    font-size: 16px;
+    padding: 6px 10px;
 }
 
 /* Site header (top bar) */
@@ -493,15 +496,19 @@ header { position: relative; }
     height: 60px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     padding: 0 20px;
 }
+
+.site-header-right { margin-left: auto; }
 
 .site-brand {
     font-weight: 700;
     color: #222;
     text-decoration: none;
 }
+
+.site-brand { font-size: 20px; }
 
 /* space page content below the fixed header */
 .wrapper { padding-top: 76px; }
