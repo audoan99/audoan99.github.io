@@ -3,7 +3,6 @@
     font-weight: 400;
     font-style: normal;
     src: url("../fonts/Noto-Sans-regular/Noto-Sans-regular.eot");
-.site-brand { font-size: 36px; font-weight: 700; color: #333333; margin-right: 12px; }
 }
 
 @font-face {
@@ -499,7 +498,6 @@ header { position: relative; }
 .site-header-inner .site-brand:visited {
     color: #333333;
 }
-}
 
 /* Site header (top bar) */
 .site-header {
@@ -516,7 +514,7 @@ header { position: relative; }
 .site-header-inner {
     max-width: 1100px;
     margin: 0 auto;
-    height: 60px;
+    height: 76px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -529,9 +527,11 @@ header { position: relative; }
     font-weight: 700;
     color: #222;
     text-decoration: none;
+    font-size: 36px;
+    font-weight: 700;
+    color: #333333;
+    margin-right: 12px;
 }
-
-.site-brand { font-size: 20px; font-weight: 700; color: #333333; }
 
 /* space page content below the fixed header */
 .wrapper { padding-top: 92px; }
