@@ -1,0 +1,13 @@
+---
+theme: jekyll-theme-minimal
+title: Ngoc-Au Doan
+description: Embedded Software Engineer — CV & Blog
+logo: assets/images/au_avatar.png
+url: https://audoan99.github.io
+---
+
+# Site configuration for GitHub Pages (Jekyll)
+
+This file provides minimal site metadata used by Jekyll themes. The site content (CV and blog) is primarily provided by the static HTML files in the repository (`index.html`, `blog/`).
+
+If you are not using Jekyll to build the site (site is served as plain static HTML), you may remove this file.
