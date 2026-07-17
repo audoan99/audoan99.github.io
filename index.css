@@ -486,6 +486,19 @@ header { position: relative; }
         font-size: 36px; /* match site-brand */
     padding: 8px 10px;
 }
+
+/* Ensure About and Blog always look identical (size, weight, color) */
+.site-header-inner .site-brand,
+.site-header-inner .top-nav li a {
+    color: #333333;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1;
+}
+.site-header-inner .top-nav li a:visited,
+.site-header-inner .site-brand:visited {
+    color: #333333;
+}
 }
 
 /* Site header (top bar) */
@@ -753,7 +766,7 @@ screen and (max-width: 480px) {
     color: #333;
 }
 .pub-highlight {
-    color: #c00;
+    color: #222;
     font-weight: 700;
 }
 .pub-meta {
