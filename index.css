@@ -482,7 +482,7 @@ header { position: relative; }
     color: #333333; /* dark grey */
     text-decoration: none;
     font-weight: 700;
-        font-size: 36px; /* match site-brand */
+        font-size: 28px; /* match site-brand */
     padding: 8px 10px;
 }
 
@@ -491,7 +491,7 @@ header { position: relative; }
 .site-header-inner .top-nav li a {
     color: #333333;
     font-weight: 700;
-    font-size: 36px;
+    font-size: 28px;
     line-height: 1;
 }
 .site-header-inner .top-nav li a:visited,
@@ -527,7 +527,7 @@ header { position: relative; }
     font-weight: 700;
     color: #222;
     text-decoration: none;
-    font-size: 36px;
+    font-size: 28px;
     font-weight: 700;
     color: #333333;
     margin-right: 12px;
